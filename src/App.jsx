@@ -14,6 +14,7 @@ import ArrayUseState from "./Hooks React/useState/ArrayUseState";
 import Counter from "./Hooks React/useState/Counter";
 import ObjectUseState from "./Hooks React/useState/ObjectUseState";
 import Birthday from "./Projects/BirthdayReminder/Birthday";
+import UseEffectBasics from "./Hooks React/useEffect/UseEffectBasics";
 
 const App = () => {
   return (
@@ -32,7 +33,8 @@ const App = () => {
       {/* <ArrayUseState /> */}
       {/* <Counter /> */}
       {/* <ObjectUseState /> */}
-      <Birthday />
+      {/* <Birthday /> */}
+      <UseEffectBasics />
     </>
   );
 };
