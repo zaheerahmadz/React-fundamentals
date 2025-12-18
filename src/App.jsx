@@ -15,6 +15,8 @@ import Counter from "./Hooks React/useState/Counter";
 import ObjectUseState from "./Hooks React/useState/ObjectUseState";
 import Birthday from "./Projects/BirthdayReminder/Birthday";
 import UseEffectBasics from "./Hooks React/useEffect/UseEffectBasics";
+import CleanUpEffect from "./Hooks React/useEffect/CleanUpEffect";
+import FetchApi from "./Hooks React/useEffect/FetchApi";
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
       {/* <Counter /> */}
       {/* <ObjectUseState /> */}
       {/* <Birthday /> */}
-      <UseEffectBasics />
+      {/* <UseEffectBasics /> */}
+      {/* <CleanUpEffect /> */}
+      <FetchApi />
     </>
   );
 };
