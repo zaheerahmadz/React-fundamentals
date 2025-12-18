@@ -13,6 +13,7 @@ import ChangeTitle from "./Hooks React/useState/ChangeTitle";
 import ArrayUseState from "./Hooks React/useState/ArrayUseState";
 import Counter from "./Hooks React/useState/Counter";
 import ObjectUseState from "./Hooks React/useState/ObjectUseState";
+import Birthday from "./Projects/BirthdayReminder/Birthday";
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <ChangeTitle /> */}
       {/* <ArrayUseState /> */}
       {/* <Counter /> */}
-      <ObjectUseState />
+      {/* <ObjectUseState /> */}
+      <Birthday />
     </>
   );
 };
