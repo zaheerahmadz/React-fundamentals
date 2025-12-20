@@ -17,6 +17,8 @@ import Birthday from "./Projects/BirthdayReminder/Birthday";
 import UseEffectBasics from "./Hooks React/useEffect/UseEffectBasics";
 import CleanUpEffect from "./Hooks React/useEffect/CleanUpEffect";
 import FetchApi from "./Hooks React/useEffect/FetchApi";
+import MultipleReturn from "./Conditional rendering/MultipleReturn";
+import ShortCircuit from "./ShortCircuit/ShortCircuit";
 
 const App = () => {
   return (
@@ -38,7 +40,9 @@ const App = () => {
       {/* <Birthday /> */}
       {/* <UseEffectBasics /> */}
       {/* <CleanUpEffect /> */}
-      <FetchApi />
+      {/* <FetchApi /> */}
+      {/* <MultipleReturn /> */}
+      <ShortCircuit />
     </>
   );
 };

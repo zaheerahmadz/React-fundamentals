@@ -26,3 +26,24 @@
 // No array/////////After every render
 // [] //////////////Only on first render
 // [state]///////// its run when that state change
+//.
+//.
+//.
+//Conditional rendering
+// Conditional rendering in React is a technique used to render different UI elements or components based on conditions such as state or props.
+// Examples: Show a loader while data is fetching
+//Display error messages if something fails
+//Render different UI for logged-in vs logged-out users
+//if (isLoading) {
+//return <h2>Loading...</h2>;
+//}
+
+// return <h2>Data Loaded</h2>;
+//.
+//.
+//.
+// ShortCircuit
+//Short-circuiting in React is a JavaScript technique that uses logical operators like && to conditionally render components based on a condition.
+//const [text,setText] =useState('hello')
+// const firstValue = text || "Hello World";
+// const secondValue = text && "Hello World";
