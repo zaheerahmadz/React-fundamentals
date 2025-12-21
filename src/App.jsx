@@ -19,6 +19,7 @@ import CleanUpEffect from "./Hooks React/useEffect/CleanUpEffect";
 import FetchApi from "./Hooks React/useEffect/FetchApi";
 import MultipleReturn from "./Conditional rendering/MultipleReturn";
 import ShortCircuit from "./ShortCircuit/ShortCircuit";
+import ControlledInputs from "./Controlled Inputs/ControlledInputs";
 
 const App = () => {
   return (
@@ -42,7 +43,8 @@ const App = () => {
       {/* <CleanUpEffect /> */}
       {/* <FetchApi /> */}
       {/* <MultipleReturn /> */}
-      <ShortCircuit />
+      {/* <ShortCircuit /> */}
+      <ControlledInputs />
     </>
   );
 };
