@@ -47,3 +47,19 @@
 //const [text,setText] =useState('hello')
 // const firstValue = text || "Hello World";
 // const secondValue = text && "Hello World";
+//.
+//.
+//.
+// UseRef
+//useRef is a React Hook that stores a mutable value which persists across renders and does not trigger a re-render when its value changes.
+//const nameRef = useRef(initialValue);
+//.
+//.
+//.
+//Controlled inputs
+//Controlled inputs are form inputs whose values are fully controlled by React state. This means the input’s value is stored in a state variable, and every change is handled through React.
+//.
+//.
+//.
+//DOM
+//document object modal that means changing the content, structure, or style of a web page using JavaScript.

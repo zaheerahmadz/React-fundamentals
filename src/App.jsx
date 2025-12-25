@@ -20,6 +20,7 @@ import FetchApi from "./Hooks React/useEffect/FetchApi";
 import MultipleReturn from "./Conditional rendering/MultipleReturn";
 import ShortCircuit from "./ShortCircuit/ShortCircuit";
 import ControlledInputs from "./Controlled Inputs/ControlledInputs";
+import CountChange from "./Hooks React/useRef/CountChange";
 
 const App = () => {
   return (
@@ -44,7 +45,8 @@ const App = () => {
       {/* <FetchApi /> */}
       {/* <MultipleReturn /> */}
       {/* <ShortCircuit /> */}
-      <ControlledInputs />
+      {/* <ControlledInputs /> */}
+      <CountChange />
     </>
   );
 };
